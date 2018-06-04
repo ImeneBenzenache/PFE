@@ -1,0 +1,93 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2014-12-4: Created.
+-->
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>
+Created by FontForge 20120731 at Thu Dec  4 09:51:48 2014
+ By Adam Bradley
+Created by Adam Bradley with FontForge 2.0 (http://fontforge.sf.net)
+</metadata>
+<defs>
+<font id="Ionicons" horiz-adv-x="448" >
+  <font-face 
+    font-family="Ionicons"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="512"
+    panose-1="2 0 6 3 0 0 0 0 0 0"
+    ascent="448"
+    descent="-64"
+    bbox="-0.54049 -64 512.487 448"
+    underline-thickness="25.6"
+    underline-position="-51.2"
+    unicode-range="U+F100-F4F7"
+  />
+    <missing-glyph />
+    <glyph glyph-name="ion-alert-circled" unicode="&#xf100;" 
+d="M445 26c3 -5 5 -13 2 -18s-8 -8 -14 -8h-418c-6 0 -11 3 -14 8s-1 13 2 18l207 349c3 5 8 9 14 9s11 -4 14 -9zM256 48v48h-64v-48h64zM256 128v144h-64v-144h64z" />
+    <glyph glyph-name="ion-alert" unicode="&#xf101;" horiz-adv-x="128" 
+d="M128 -32h-128v96h128v-96zM112 128h-96l-16 288h128z" />
+    <glyph glyph-name="ion-android-add-circle" unicode="&#xf359;" horiz-adv-x="416" 
+d="M208 400c115 0 208 -93 208 -208s-93 -208 -208 -208s-208 93 -208 208s93 208 208 208zM315 171v42h-86v86h-42v-86h-86v-42h86v-86h42v86h86z" />
+    <glyph glyph-name="ion-android-add" unicode="&#xf2c7;" horiz-adv-x="320" 
+d="M320 171h-139v-139h-42v139h-139v42h139v139h42v-139h139v-42z" />
+    <glyph glyph-name="ion-android-alarm-clock" unicode="&#xf35a;" horiz-adv-x="428" 
+d="M428 323l-28 -33l-98 82l28 33zM125 373l-97 -83l-28 33l97 83zM225 275v0v-111l85 -50l-16 -27l-101 61v127h32zM214 360c106 0 193 -86 193 -191s-87 -191 -193 -191c-107 0 -193 86 -193 191s86 191 193 191zM214 20c82 0 150 66 150 149c0 82 -68 149 -150 149
+s-150 -67 -150 -149s68 -149 150 -149z" />
+    <glyph glyph-name="ion-android-alert" unicode="&#xf35b;" horiz-adv-x="416" 
+d="M208 400c114 0 208 -94 208 -208s-94 -208 -208 -208s-208 94 -208 208s94 208 208 208zM232 88v40h-48v-40h48zM232 176v128h-48v-128h48z" />
+    <glyph glyph-name="ion-android-apps" unicode="&#xf35c;" horiz-adv-x="320" 
+d="M0 272v80h80v-80h-80zM120 32v80h80v-80h-80zM0 32v80h80v-80h-80zM0 152v80h80v-80h-80zM120 152v80h80v-80h-80zM240 352h80v-80h-80v80zM120 272v80h80v-80h-80zM240 152v80h80v-80h-80zM240 32v80h80v-80h-80z" />
+    <glyph glyph-name="ion-android-archive" unicode="&#xf2c9;" horiz-adv-x="416" 
+d="M406 348c7 -7 10 -17 10 -29v-289c0 -25 -21 -46 -46 -46h-324c-25 0 -46 21 -46 46v289c0 12 3 22 10 29l33 39c6 8 16 13 26 13h278c10 0 20 -5 26 -13zM208 65l127 127h-81v46h-92v-46h-81zM49 354h317l-22 23h-277z" />
+    <glyph glyph-name="ion-android-arrow-back" unicode="&#xf2ca;" horiz-adv-x="342" 
+d="M342 213v-42h-260l119 -120l-30 -30l-171 171l171 171l31 -30l-120 -120h260z" />
+    <glyph glyph-name="ion-android-arrow-down" unicode="&#xf35d;" horiz-adv-x="342" 
+d="M192 363v-260l120 120l30 -31l-171 -171l-171 171l30 30l120 -119v260h42z" />
+    <glyph glyph-name="ion-android-arrow-dropdown-circle" unicode="&#xf35e;" horiz-adv-x="416" 
+d="M208 400c115 0 208 -93 208 -208s-93 -208 -208 -208s-208 93 -208 208s93 208 208 208zM208 128l96 96h-192z" />
+    <glyph glyph-name="ion-android-arrow-dropdown" unicode="&#xf35f;" horiz-adv-x="256" 
+d="M0 256h256l-128 -128z" />
+    <glyph glyph-name="ion-android-arrow-dropleft-circle" unicode="&#xf360;" horiz-adv-x="416" 
+d="M416 192c0 -115 -93 -208 -208 -208s-208 93 -208 208s93 208 208 208s208 -93 208 -208zM144 192l96 -96v192z" />
+    <glyph glyph-name="ion-android-arrow-dropleft" unicode="&#xf361;" horiz-adv-x="128" 
+d="M128 320v-256l-128 128z" />
+    <glyph glyph-name="ion-android-arrow-dropright-circle" unicode="&#xf362;" horiz-adv-x="416" 
+d="M208 -16c-115 0 -208 93 -208 208s93 208 208 208s208 -93 208 -208s-93 -208 -208 -208zM176 96l96 96l-96 96v-192z" />
+    <glyph glyph-name="ion-android-arrow-dropright" unicode="&#xf363;" horiz-adv-x="128" 
+d="M0 320l128 -128l-128 -128v256z" />
+    <glyph glyph-name="ion-android-arrow-dropup-circle" unicode="&#xf364;" horiz-adv-x="416" 
+d="M416 192c0 -115 -93 -208 -208 -208s-208 93 -208 208s93 208 208 208s208 -93 208 -208zM304 160l-96 96l-96 -96h192z" />
+    <glyph glyph-name="ion-android-arrow-dropup" unicode="&#xf365;" horiz-adv-x="256" 
+d="M0 128l128 128l128 -128h-256z" />
+    <glyph glyph-name="ion-android-arrow-forward" unicode="&#xf30f;" horiz-adv-x="342" 
+d="M0 171v42h260l-119 120l30 30l171 -171l-171 -171l-31 30l120 120h-260z" />
+    <glyph glyph-name="ion-android-arrow-up" unicode="&#xf366;" horiz-adv-x="342" 
+d="M192 21h-42v260l-120 -119l-30 30l171 171l171 -171l-30 -31l-120 120v-260z" />
+    <glyph glyph-name="ion-android-attach" unicode="&#xf367;" horiz-adv-x="235" 
+d="M203 320h32v-235c0 -65 -53 -117 -118 -117s-117 52 -117 117v246c0 47 38 85 85 85s86 -38 86 -85v-246c0 -30 -24 -53 -54 -53s-53 23 -53 53v203h32v-203c0 -12 9 -21 21 -21s22 9 22 21v246c0 30 -24 53 -54 53s-53 -23 -53 -53v-246c0 -47 38 -85 85 -85
+s86 38 86 85v235z" />
+    <glyph glyph-name="ion-android-bar" unicode="&#xf368;" horiz-adv-x="384" 
+d="M171 171l-171 170v43h384v-43l-171 -170v-131h107v-40h-256v40h107v131zM96 299h192l43 42h-278z" />
+    <glyph glyph-name="ion-android-bicycle" unicode="&#xf369;" 
+d="M299 317c-19 0 -34 14 -34 33s15 34 34 34s33 -15 33 -34s-14 -33 -33 -33zM355 187c51 0 93 -43 93 -94s-42 -93 -93 -93s-94 42 -94 93s43 94 94 94zM355 28c36 0 65 29 65 65s-29 66 -65 66s-66 -30 -66 -66s30 -65 66 -65zM274 224l-30 45l-43 -45l39 -32v-112h-32
+v86l-61 38c-9 6 -19 15 -19 27c0 8 3 17 9 23l72 69c6 6 14 9 22 9c11 0 22 -7 28 -16l34 -60h59v-32h-78zM93 187c51 0 94 -43 94 -94s-43 -93 -94 -93s-93 42 -93 93s42 94 93 94zM93 28c36 0 66 29 66 65s-30 66 -66 66s-65 -30 -65 -66s29 -65 65 -65z" />
+    <glyph glyph-name="ion-android-boat" unicode="&#xf36a;" 
+d="M52 35l-51 139c-2 6 -1 12 1 17s8 8 13 10l38 13v98c0 23 20 43 43 43h64l16 53h96l16 -53h64c23 0 43 -20 43 -43v-98l38 -13c5 -2 11 -5 13 -10s3 -12 1 -17l-51 -139h-1c-34 0 -65 20 -86 43c-21 -23 -51 -43 -85 -43s-64 19 -85 42c-21 -23 -52 -42 -86 -42h-1z
+M96 312v-84l128 41l128 -41v84h-256zM309 40c0 0 59 -64 107 -64h-21c-30 0 -59 12 -86 26c-53 -28 -117 -28 -170 0c-27 -14 -56 -26 -86 -26h-21c49 0 107 64 107 64c52 -36 118 -36 170 0z" />
+    <glyph glyph-name="ion-android-bookmark" unicode="&#xf36b;" horiz-adv-x="288" 
+d="M248 384c22 0 40 -18 40 -40v-344l-144 64l-144 -64v344c0 22 18 40 40 40h208z" />
+    <glyph glyph-name="ion-android-bulb" unicode="&#xf36c;" 
+d="M224 278c-25 0 -50 -10 -68 -28s-28 -43 -28 -68c0 -34 18 -66 48 -83l16 -10v-18v-71h64v71v18l16 10c15 8 27 20 35 34c9 15 13 31 13 49c0 25 -10 50 -28 68s-43 28 -68 28zM245 416v0v-64h-42v64h42zM374 362v0l30 -30l-38 -38l-30 30zM74 362v0l38 -38l-30 -30
+l-38 38zM224 310v0c70 0 128 -58 128 -128c0 -48 -26 -89 -64 -111v-103h-128v103c-38 22 -64 64 -64 111c0 70 58 128 128 128zM448 203v0v-42h-64v42h64zM64 203v0v-42h-64v42h64z" />
+    <glyph glyph-name="ion-android-bus" unicode="&#xf36d;" horiz-adv-x="352" 
+d="M0 96v204c0 75 82 84 176 84s176 -9 176 -84v-204c0 -18 -14 -24 -27 -36v-39c0 -12 -9 -21 -21 -21h-21c-12 0 -22 9 -22 21v22h-170v-22c0 -12 -10 -21 -22 -21h-21c-12 0 -21 9 -21 21v39c-13 12 -27 17 -27 36zM80 80c18 0 32 14 32 32s-14 32 -32 32
+s-32 -14 -32 -32s14 -32 32 -32zM272 80c18 0 32 14 32 32s-14 32 -32 32s-32 -14 -32 -32s14 -32 32 -32zM304 203v106h-256v-106h256z" />
+    <glyph glyph-name="ion-android-calendar" unicode="&#xf2d1;" horiz-adv-x="384" 
+d="M304 176v-96h-96v96h96zM272 384h48v-32h24c22 0 40 -18 40 -40v-272c0 -22 -18 -40 -40 -40h-304c-22 0 -40 18 -40 40v272c0 22 18 40 40 40h24v32h48v-32h160v32zM344 40v212h-304v-212h304z" />
+    <glyph glyph-name="ion-android-call" unicode="&#xf2d2;" horiz-adv-x="384" 
+d="M363 117c12 0 21 -9 21 -21v-75c0 -12 -9 -21 -21 -21c-201 0 -363 162 -363 363c0 12 9 21 21 21h75c12 0 21 -9 21 -21c0 -27 4 -52 13 -77c2 -7 0 -16 -5 -21l-47 -47c31 -61 80 -110 141 -141l47 47c5 6 14 7 21 5c23 -7 49 -12 76 -12z" />
+    <glyph glyph-name="ion-android-camera" unicode="&#xf2d3;" 
+d="M161 168c0 42 21 63 63 63s63 -21 63 -63s-21 -63 -63 -63s-63 21 -63 63zM408 352c11 0 20 -4 28 -12s12 -17 12 -28v-272c0 -11 -4 -20 -12 -28s-17 -12 -28 -12h-368c-11 0 -20 4 -28 12s-12 17 -12 28v272c0 11 4 20 12 28s17 12 28 

@@ -1,0 +1,426 @@
+[
+{
+  "Année": "L2",
+  "Specialite": [
+  {
+    "Nom" : "ACAD",
+    "Sections": [
+      {
+        "Nom" : "A",
+        "Semaine":[
+          {
+            "Jour": "Dimanche",
+            "Programme": [
+              {
+                "Heure": "08:00",
+                "Groupe" : "",
+                "Type": "Cours",
+                "Salle": "300-400",
+                "Module": "Archi",
+                "Enseignant": "Mameri"
+              },
+              {
+                "Heure": "08:00",
+                "Groupe" : "2",
+                "Type": "TP",
+                "Salle": "131",
+                "Module": "POO",
+                "Enseignant": "Ighilaza"
+              },
+              {
+                "Heure": "08:00",
+                "Groupe" : "3",
+                "Type": "TP",
+                "Salle": "128",
+                "Module": "POO",
+                "Enseignant": "Kadri"
+              },
+              {
+                "Heure": "09:40",
+                "Groupe" : "2",
+                "Type": "TP",
+                "Salle": "131",
+                "Module": "POO",
+                "Enseignant": "Ighilaza"
+              },
+              {
+                "Heure": "09:40",
+                "Groupe" : "3",
+                "Type": "TP",
+                "Salle": "128",
+                "Module": "POO",
+                "Enseignant": "Kadri"
+              },
+              {
+                "Heure": "09:40",
+                "Groupe" : "1",
+                "Type": "TP",
+                "Salle": "130",
+                "Module": "Archi",
+                "Enseignant": "Mameri"
+              },
+              {
+                "Heure": "13:00",
+                "Groupe" : "",
+                "Type": "Cours",
+                "Salle": "300-400",
+                "Module": "THL",
+                "Enseignant": "Bouzeghoub"
+              }
+            ]
+          },
+          {
+            "Jour": "Lundi",
+            "Programme": [
+              {
+                "Heure": "08:00",
+                "Groupe" : "1",
+                "Type": "TD",
+                "Salle": "100-200",
+                "Module": "THL",
+                "Enseignant": "Bouzeghoub"
+              },
+              {
+                "Heure": "09:40",
+                "Groupe" : "1",
+                "Type": "TP",
+                "Salle": "128",
+                "Module": "BDD",
+                "Enseignant": "Hank"
+              },
+              {
+                "Heure": "11:20",
+                "Groupe" : "3",
+                "Type": "TP",
+                "Salle": "127",
+                "Module": "BDD",
+                "Enseignant": "Hank"
+              }
+            ]
+          },
+          {
+            "Jour": "Mardi",
+            "Programme": [
+              {
+                "Heure": "08:00",
+                "Groupe" : "2",
+                "Type": "TP",
+                "Salle": "131",
+                "Module": "POO",
+                "Enseignant": "Mameri"
+              },
+              {
+                "Heure": "09:40",
+                "Groupe" : "",
+                "Type": "Cours",
+                "Salle": "300-400",
+                "Module": "BDD",
+                "Enseignant": "Abdat"
+              },
+              {
+                "Heure": "11:20",
+                "Groupe" : "1",
+                "Type": "TP",
+                "Salle": "127",
+                "Module": "POO",
+                "Enseignant": "Mameri"
+              },
+              {
+                "Heure": "13:00",
+                "Groupe" : "1",
+                "Type": "TD",
+                "Salle": "127",
+                "Module": "THL",
+                "Enseignant": "Bouzeghoub"
+              },
+              {
+                "Heure": "14:40",
+                "Groupe" : "2",
+                "Type": "TP",
+                "Salle": "131",
+                "Module": "BDD",
+                "Enseignant": "Abdat"
+              }
+            ]
+          },
+          {
+            "Jour": "Mercredi",
+            "Programme": [
+              {
+                "Heure": "22:30",
+                "Groupe" : "",
+                "Type": "Cours",
+                "Salle": "300-400",
+                "Module": "Archi",
+                "Enseignant": "Mameri"
+              },
+              {
+                "Heure": "22:30",
+                "Groupe" : "2",
+                "Type": "TP",
+                "Salle": "131",
+                "Module": "POO",
+                "Enseignant": "Ighilaza"
+              }
+
+            ]
+          },
+          {
+            "Jour": "Jeudi",
+            "Programme": [
+              {
+                "Heure": "08:00",
+                "Groupe" : "2",
+                "Type": "TP",
+                "Salle": "130",
+                "Module": "Archi",
+                "Enseignant": "Mekhaldi"
+              },
+              {
+                "Heure": "00:00",
+                "Groupe" : "2",
+                "Type": "TP",
+                "Salle": "130",
+                "Module": "Archi",
+                "Enseignant": "Mekhaldi"
+              },
+              {
+                "Heure": "00:00",
+                "Groupe" : "2",
+                "Type": "TP",
+                "Salle": "127",
+                "Module": "Archi",
+                "Enseignant": "Mekhaldi"
+              },
+              {
+                "Heure": "09:40",
+                "Groupe" : "2",
+                "Type": "TD",
+                "Salle": "100-200",
+                "Module": "Sys-Inf",
+                "Enseignant": "Hank"
+              },
+              {
+                "Heure": "11:20",
+                "Groupe" : "",
+                "Type": "Cours",
+                "Salle": "100-200",
+                "Module": "Archi",
+                "Enseignant": "Mekhaldi"
+              },
+              {
+                "Heure": "13:00",
+                "Groupe" : "1",
+                "Type": "TP",
+                "Salle": "127",
+                "Module": "Archi",
+                "Enseignant": "Mekhaldi"
+              },
+              {
+                "Heure": "13:00",
+                "Groupe" : "2",
+                "Type": "TD",
+                "Salle": "128",
+                "Module": "Gen-Log",
+                "Enseignant": "Haddouche"
+              }
+            ]
+          }
+        ]
+      }
+
+    ]
+  }
+  ]
+
+},
+{
+
+  "Année": "L3",
+  "Specialite": [
+    {
+      "Nom" : "ISIL",
+      "Sections": [
+        {
+          "Nom" : "A",
+          "Semaine":[
+            {
+              "Jour": "Samedi",
+              "Programme": [
+                {
+                  "Heure": "08:00",
+                  "Groupe" : "2",
+                  "Type": "TD",
+                  "Salle": "300-400",
+                  "Module": "Réseaux",
+                  "Enseignant": "Atif"
+                },
+                {
+                  "Heure": "09:40",
+                  "Groupe" : "2",
+                  "Type": "TD",
+                  "Salle": "100-200",
+                  "Module": "Sys-Inf",
+                  "Enseignant": "Hank"
+                },
+                {
+                  "Heure": "11:20",
+                  "Groupe" : "3",
+                  "Type": "TP",
+                  "Salle": "130",
+                  "Module": "Réseaux",
+                  "Enseignant": "Bouagar"
+                },
+                {
+                  "Heure": "13:00",
+                  "Groupe" : "1",
+                  "Type": "TP",
+                  "Salle": "127",
+                  "Module": "Réseaux",
+                  "Enseignant": "Atif"
+                }
+              ]
+            },
+            {
+              "Jour": "Lundi",
+              "Programme": [
+                {
+                  "Heure": "08:00",
+                  "Groupe" : "",
+                  "Type": "Cours",
+                  "Salle": "300-400",
+                  "Module": "Compil",
+                  "Enseignant": "Gharbi"
+                },
+                {
+                  "Heure": "09:40",
+                  "Groupe" : "1",
+                  "Type": "TP",
+                  "Salle": "127",
+                  "Module": "Compil",
+                  "Enseignant": "Gharbi"
+                },
+                {
+                  "Heure": "11:20",
+                  "Groupe" : "3",
+                  "Type": "TP",
+                  "Salle": "130",
+                  "Module": "Compil",
+                  "Enseignant": "Amrous"
+                }
+              ]
+            },
+            {
+              "Jour": "Mardi",
+              "Programme": [
+                {
+                  "Heure": "08:00",
+                  "Groupe" : "",
+                  "Type": "Cours",
+                  "Salle": "100-200",
+                  "Module": "Compil",
+                  "Enseignant": "Gharbi"
+                },
+                {
+                  "Heure": "09:40",
+                  "Groupe" : "2",
+                  "Type": "TP",
+                  "Salle": "129",
+                  "Module": "Gen-Log",
+                  "Enseignant": "Haddouche"
+                },
+                {
+                  "Heure": "11:20",
+                  "Groupe" : "1",
+                  "Type": "TP",
+                  "Salle": "129",
+                  "Module": "Gen-Log",
+                  "Enseignant": "Haddouche"
+                },
+                {
+                  "Heure": "13:00",
+                  "Groupe" : "3",
+                  "Type": "TP",
+                  "Salle": "131",
+                  "Module": "BDD",
+                  "Enseignant": "Abdat"
+                },
+                {
+                  "Heure": "13:00",
+                  "Groupe" : "1",
+                  "Type": "TP",
+                  "Salle": "130",
+                  "Module": "Gen-Log",
+                  "Enseignant": "Haddouche"
+                },
+                {
+                  "Heure": "14:40",
+                  "Groupe" : "2",
+                  "Type": "TP",
+                  "Salle": "127",
+                  "Module": "BDD",
+                  "Enseignant": "Abdat"
+                }
+              ]
+            },
+            {
+              "Jour": "Jeudi",
+              "Programme": [
+                {
+                  "Heure": "08:00",
+                  "Groupe" : "2",
+                  "Type": "TD",
+                  "Salle": "130",
+                  "Module": "Sys-Inf",
+                  "Enseignant": "Hank"
+                },
+                {
+                  "Heure": "09:40",
+                  "Groupe" : "2",
+                  "Type": "TD",
+                  "Salle": "300-400",
+                  "Module": "Sys-Inf",
+                  "Enseignant": "Hank"
+                },
+                {
+                  "Heure": "11:20",
+                  "Groupe" : "1",
+                  "Type": "TP",
+                  "Salle": "127",
+                  "Module": "Réseaux",
+                  "Enseignant": "Atif"
+                },
+                {
+                  "Heure": "13:00",
+                  "Groupe" : "",
+                  "Type": "Cours",
+                  "Salle": "100-200",
+                  "Module": "Sys-Inf",
+                  "Enseignant": "Hank"
+                },
+                {
+                  "Heure": "14:40",
+                  "Groupe" : "1",
+                  "Type": "TP",
+                  "Salle": "111",
+                  "Module": "Gen-Log",
+                  "Enseignant": "Haddouche"
+                },
+                {
+                  "Heure": "14:40",
+                  "Groupe" : "2",
+                  "Type": "TP",
+                  "Salle": "130",
+                  "Module": "Gen-Log",
+                  "Enseignant": "Oulefki"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+
+      ]
+    }
+  ]

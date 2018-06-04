@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>USTHB Dashboard - Données statistiques</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="style/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="style/css/font-awesome.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="style/css/ionicons.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="style/css/AdminLTE.min.css">
+    <!-- AdminLTE Skins. We have chosen the skin-blue for this starter
+        page. However, you can choose any other skin. Make sure you
+        apply the skin class to the body tag so the changes take effect. -->
+    <link rel="stylesheet" href="style/css/skins/skin-green.min.css">
+    <script src="js/jquery/dist/jquery.min.js "></script>
+
+    <script>
+      if (!localStorage.getItem("username")) {
+        $(location).attr('href', 'index.html')
+      }
+
+    </script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+
+    <!-- Google Font -->
+
+  </head>
+  <!--
+BODY TAG OPTIONS:
+=================
+Apply one or more of the following classes to get the
+desired effect
+|---------------------------------------------------------|
+| SKINS         | skin-blue                               |
+|               | skin-black                              |
+|               | skin-purple                             |
+|               | skin-yellow                             |
+|               | skin-red                                |
+|               | skin-green                              |
+|---------------------------------------------------------|
+|LAYOUT OPTIONS | fixed                                   |
+|               | layout-boxed                            |
+|               | layout-top-nav                          |
+|               | sidebar-collapse                        |
+|               | sidebar-mini                            |
+|---------------------------------------------------------|
+-->
+
+  <body class="hold-transition skin-green sidebar-collapse sidebar-mini">
+    <div class="wrapper">
+
+      <!-- Main Header -->
+      <header class="main-header">
+
+        <!-- Logo -->
+        <a href="home.html" class="logo">
+          <!-- mini logo for sidebar mini 50x50 pixels -->
+          <span class="logo-mini"><b>U</b>DB</span>
+          <!-- logo for regular state and mobile devices -->
+          <span class="logo-lg"><b>USTHB</b>Dashboard</span>
+        </a>
+
+        <!-- Header Navbar -->
+        <nav class="navbar navbar-static-top" role="navigation">
+          <!-- Sidebar toggle button-->
+          <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+        <span class="sr-only">Navigation</span>
+      </a>
+          <!-- Navbar Right Menu -->
+          <div class="navbar-custom-menu">
+            <ul class="nav navbar-nav">
+              <!-- Messages: style can be found in dropdown.less-->
+
+              <!-- User Account Menu -->
+              <li class="dropdown user user-menu">
+                <!-- Menu Toggle Button -->
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <!-- The user image in the navbar-->
+                  <img src="img/user2-160x160.jpg" class="user-image" alt="User Image">
+                  <!-- hidden-xs hides the Admin on small devices so only the image appears. -->
+                  <span class="hidden-xs">Admin</span>
+                </a>
+                <ul class="dropdown-menu">
+                  <!-- The user image in the menu -->
+                  <li class="user-header">
+                    <img src="img/user2-160x160.jpg" class="img-circle" alt="User Image">
+
+                    <p>
+                      Admin
+                    </p>
+                  </li>
+                  <!-- Menu Body -->
+
+                  <!-- Menu Footer-->
+                  <li class="user-footer">
+
+                    <div>
+                      <a href="index.html" class="btn btn-default btn-flat">Déconnexion</a>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <!-- Control Sidebar Toggle Button -->
+
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!-- Left side column. contains the logo and sidebar -->
+      <aside class="main-sidebar">
+
+        <!-- sidebar: style can be found in sidebar.less -->
+        <section class="sidebar">
+
+          <!-- Sidebar user panel (optional) -->
+
+
+          <!-- search form (Optional) -->
+
+          <!-- /.search form -->
+
+          <!-- Sidebar Menu -->
+          <ul class="sidebar-menu" data-widget="tree">
+            <li class="header">Menu</li>
+            <!-- Optionally, you can add icons to the links -->
+            <li><a href="home.html"><i class="fa fa-dashboard"></i> <span>Page d'accueil</span></a></li>
+            <li><a href="geo.html"><i class="fa fa-map-o"></i> <span>Carte géographique</span></a></li>
+            <li class="active"><a href="stat.html"><i class="fa fa-bar-chart-o"></i> <span>Données statistiques</span></a></li>
+          </ul>
+          <!-- /.sidebar-menu -->
+        </section>
+        <!-- /.sidebar -->
+      </aside>
+
+      <!-- Content Wrapper. Contains page content -->
+      <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+          <h1>
+        Données statistiques
+        <small>Graphes descriptifs et analytiques</small>
+      </h1>
+
+        </section>
+
+        <!-- Main content -->
+        <section class="content container-fluid">
+
+          <!-- Graphe 1 -->
+
+          <div class="row">
+
+            <div class="col-md-8">
+
+              <!-- MAP & BOX PANE -->
+              <div class="box box-success box-solid">
+                <div class="box-header with-border">
+                  <h3 id="titre1" class="box-title">Le module le plus enseigné </h3>
+
+                  <div class="box-tools pull-right">
+                    <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                            </button>
+                  </div>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body no-padding">
+                  <div class="row">
+
+                    <div class="col-md-12 col-sm-12">
+
+                      <div class="pad" id="graphe">
+                        <div class="input-group-btn ">
+                          <button id="button1" class="btn btn-success btn-flat dropdown-toggle margin-bottom" style="width:100%" data-toggle="dropdown" onclick="dropDown(event)">
+                                    Choisir la spécialité  <span class="caret"></span>
+                                  </button>
+
+                          <ul id="dropdown" class="dropdown-menu" style="position :absolute; width:100%">
+                            <li><a class="dropdown-item" onclick="Titre(event, titre1)" href="#">ISIL</a></li>
+                            <li><a href="#" class="dropdown-item" onclick="Titre(event, titre1)">ACAD</a></li>
+                          </ul>
+                        </div>
+                        <div id="graphic1">
+
+
+                          <div id="Graph1" class="graphe" style="display:none"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Fin Graphe 1 -->
+              <!-- Graphe 2 -->
+
+
+              <div class="box box-success box-solid">
+                <div id="div2" class="box-header with-border">
+                  <h3 id="titre2" class="box-title">Le module contenant le plus de TP </h3>
+
+                  <div class="box-tools pull-right">
+                    <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                            </button>
+                  </div>
+
+                </div>
+                <!-- box-header -->
+                <div class="box-body no-padding">
+
+
+                  <div class="col-md-12 col-sm-12">
+
+                    <div class="pad" id="graphe">
+
+                      <div class="input-group-btn ">
+                        <button id="button2" class="btn btn-success btn-flat dropdown-toggle margin-bottom" style="width:100%" data-toggle="dropdown" onclick="dropDown(event)">
+                                  Choisir la spécialité  <span class="caret"></span>
+                                  </button>
+
+                        <ul id="dropdown" class="dropdown-menu" style="position :absolute; width:100%">
+                          <li><a class="dropdown-item" onclick="Titre(event, titre2)" href="#">ISIL</a></li>
+                          <li><a href="#" id="btn2" class="dropdown-item" onclick="Titre(event, titre2)">ACAD</a></li>
+                        </ul>
+                      </div>
+
+
+                      <div id="graphic2">
+                        <div id="Graph2" class="graphe" style="display:none"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+              <div class="box box-solid">
+                <div class="box-header with-border">
+                  <h3 id="titre1" class="box-title"> <i class="fa fa-info-circle text-teal"></i> Informations</h3>
+
+
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body  no-padding">
+
+
+
+                  <div class="col-md-12 col-sm-12">
+                    <dl class="dl-horizontal">
+                      <dt><p class="small">Description</p></dt>
+                      <dd>
+                        <p class="small">Dans cette page, il vous est possible, notamment grâce aux de bouton de choix « Par spécialité » de générer des graphes de données statistiques.</p>
+                      </dd>
+                      <dt><p class="small">Graphes</p></dt>
+                      <dd>
+                        <ul>
+                          <li>
+                            <p class="small">Le module le plus enseigné <br>
+                              <p class="small text-muted"> Ce graphe affiche les cinq modules comptant le plus d'heures enseignées par semaine à leur actif.</p>
+                            </p>
+                          </li>
+                          <li>
+                            <p class="small">Le module ayant le plus de TP <br>
+                              <p class="small text-muted"> Après avoir choisi la spécialité voulue, un graphe contenant les cinq TP les plus enseignés, avec leurs nombres d'heures correspondantes.</p>
+                            </p>
+                          </li>
+                        </ul>
+                      </dd>
+                    </dl>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Fin Graphe 2 -->
+
+
+
+        </section>
+        <!-- /.content -->
+      </div>
+      <!-- /.content-wrapper -->
+
+      <!-- Main Footer -->
+      <footer class="main-footer">
+        <!-- To the right -->
+        <div class="pull-right hidden-xs">
+          Projet de Fin d'Études - Licence - Encadré par Pr Slimane LARABI </div>
+        <!-- Default to the left -->
+        <strong>Développé par <a href="https://github.com/ImeneBenzenache/Licence">Imene BENZENACHE</a>.</strong>
+      </footer>
+
+      <!-- Control Sidebar -->
+
+      <!-- /.control-sidebar -->
+      <!-- Add the sidebar's background. This div must be placed
+  immediately after the control sidebar -->
+
+      <!-- ./wrapper -->
+
+      <!-- REQUIRED JS SCRIPTS -->
+
+      <!-- jQuery 3 -->
+      <script src="js/jquery/dist/jquery.min.js"></script>
+      <!-- Bootstrap 3.3.7 -->
+      <script src="js/bootstrap/dist/js/bootstrap.min.js"></script>
+      <!-- AdminLTE App -->
+      <script src="js/adminlte.min.js"></script>
+      <script src="js/leaflet/leaflet.js"></script>
+      <script src="js/d3/d3.v3.min.js"></script>
+      <script src="script/stat.js"></script>
+      <script src="script/searchFunction.js"></script>
+      <script type="text/javascript">
+        function dropDown(event) {
+
+
+          document.getElementById(event.target.id).classList.toggle("show");
+
+
+          window.onclick = function(event) {
+            if (!event.target.matches('.btn.btn-default.dropdown-toggle')) {
+              var i, dropdowns;
+              dropdowns = document.getElementsByClassName("dropdown-menu");
+              for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                  openDropdown.classList.remove('show');
+                }
+              }
+            }
+          }
+        }
+
+      </script>
+      <!-- Fonction pour recharger les div à chaque clic de bouton sélection de spécialité \o/ -->
+      <script>
+        $("#username-display").html(localStorage.getItem("username").toUpperCase());
+
+      </script>
+
+
+
+
+
+  </body>
+
+</html>
